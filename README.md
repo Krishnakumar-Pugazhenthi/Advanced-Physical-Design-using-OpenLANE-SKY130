@@ -8,13 +8,20 @@
 ## *Day1-Inception of Open-source EDA, OpenLANE and SKY130 PDK*
 
 **Pads**
-Signals are sent and recieved from outside the chips through pads
+
+Signals are sent and recieved from outside the chips through pads.
+
 **Macros**
+
 Digital Logic blocks such as RISCV SoC and SPI.
+
 **Foundry**
+
 Places where chips are manufactured.
+
 **Foundry IP's**
-Manually designed blocks such asPLL,SRAM,ADC and DAC 
+
+Manually designed blocks such asPLL,SRAM,ADC and DAC.
 
 **Process Design Kit (PDK)**
 
@@ -281,6 +288,16 @@ Transient analysis plot
 ![enter image description here](https://github.com/Krishnakumar-Pugazhenthi/Advanced-Physical-Design-using-OpenLANE-SKY130/blob/main/DAY3/waveform.jpg)
 
 DAY 4
+
+LEF File
+
+Holds information about PR boundary, Pin position and Metal layer information.
+
+Rules for Layout of a Standard cell
+
+ - The Input and Output must lie on the intersection of horizontal and vertical grids.
+ - The width of the standard cell must be an odd multiple of track info.
+ - The height of the standard cell must be an odd multiple of track info.
 
 Horizontal and vertical track info of every metal layer
 
