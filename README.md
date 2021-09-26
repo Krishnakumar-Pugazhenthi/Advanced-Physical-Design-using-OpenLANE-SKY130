@@ -1,8 +1,14 @@
 #  ADVANCED PHYSICAL DESIGN USING OpenLANE/SKY 130
 
-
  **WORKSHOP(Sept 22- Sept 26)**
+ 
 ## Table of Contents
+
+ 1. Inception of Open-source EDA, OpenLANE and SKY130 PDK
+ 2. Importance of good floorplan vs bad floorplan and introduction to library cells
+ 3. Design and characterize one library cell using Magic Layout tool and Ngspice
+ 4. Pre-layout timing analysis and importance of good clock tree
+ 5. Final Steps for RTL2GDS using tritonRoute and open STA
 
  
 ## *Day1-Inception of Open-source EDA, OpenLANE and SKY130 PDK*
@@ -114,7 +120,7 @@ Flop Ratio=1613/14876
 Flop Ratio=0.1084
 
 
-DAY2
+## ***Day 2 - Importance of good floorplan vs bad floorplan and introduction to library cells***
 
 **
 
@@ -228,7 +234,7 @@ The cell design flow is as below
 
 Feed the above as config file to GUNA to generate the Timing, Power and Noise Libs.
 
-DAY 3
+## ***Day 3 - Design and characterize one library cell using Magic Layout tool and Ngspice***
 
 Cloning the file
 
@@ -287,7 +293,7 @@ Transient analysis plot
 
 ![enter image description here](https://github.com/Krishnakumar-Pugazhenthi/Advanced-Physical-Design-using-OpenLANE-SKY130/blob/main/DAY3/waveform.jpg)
 
-DAY 4
+## ***Day 4 - Pre-layout timing analysis and importance of good clock tree***
 
 LEF File
 
@@ -384,14 +390,19 @@ Slack violation
 
 STA
 
-OpenLane Tools for STA
+**OpenLane Tools for STA**
 
  -   `TritonCTS`  - Synthesizes the clock distribution network (the clock tree)
 
 
-DAY5
+*
 
-**POWER DISTRIBUTION NETWORK**
+## ***DAY5- Final Steps for RTL2GDS using tritonRoute and open STA***
+
+
+
+## ****POWER DISTRIBUTION NETWORK****
+
 
 ```
 gen_pdn
@@ -419,7 +430,7 @@ DRC checks verifies if all the constraints specified are met in the design. Ther
 
 ![enter image description here](https://github.com/Krishnakumar-Pugazhenthi/Advanced-Physical-Design-using-OpenLANE-SKY130/blob/main/DAY5/drc%20violation.jpg)
 
-OpenLane tools for Routing
+**OpenLane tools for Routing**
 
  -  `FastRoute`  - Performs global routing to generate a guide file for the detailed router
  -   `CU-GR`  - Another option for performing global routing.
@@ -433,5 +444,6 @@ run_routing
 ![enter image description here](https://github.com/Krishnakumar-Pugazhenthi/Advanced-Physical-Design-using-OpenLANE-SKY130/blob/main/DAY5/routing.jpg)
 
 Routing in Magic
+
 ![enter image description here](https://github.com/Krishnakumar-Pugazhenthi/Advanced-Physical-Design-using-OpenLANE-SKY130/blob/main/DAY5/magic_routing.jpg)
 
