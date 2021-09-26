@@ -1,7 +1,7 @@
-#  ADVANCED PHYSICAL DESIGN USING OpenLANE/SKY 130
+#  ADVANCED PHYSICAL DESIGN USING OpenLANE/SKY 130 (Sept 22-26)
 
  ![enter image description here](https://github.com/Krishnakumar-Pugazhenthi/Advanced-Physical-Design-using-OpenLANE-SKY130/blob/main/DAY1/Advanced-Physical-Design-using-OpenLANE_Sky130_1.png)
-                         **WORKSHOP(Sept 22- Sept 26)**
+                        
 
 ## Table of Contents
 
