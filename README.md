@@ -123,9 +123,8 @@ Flop Ratio=0.1084
 
 ## ***Day 2 - Importance of good floorplan vs bad floorplan and introduction to library cells***
 
-**
 
-## Chip Floorplanning
+## Floorplanning
 
 
 **Die and Core**
@@ -395,8 +394,19 @@ STA
 
  -   `TritonCTS`  - Synthesizes the clock distribution network (the clock tree)
 
+```
+run_cts
+```
+Variables required  for CTS
 
-*
+![enter image description here](https://github.com/Krishnakumar-Pugazhenthi/Advanced-Physical-Design-using-OpenLANE-SKY130/blob/main/DAY4/ctsvariable.jpg)
+
+
+![enter image description here](https://github.com/Krishnakumar-Pugazhenthi/Advanced-Physical-Design-using-OpenLANE-SKY130/blob/main/DAY4/cts1.jpg)
+
+
+![enter image description here](https://github.com/Krishnakumar-Pugazhenthi/Advanced-Physical-Design-using-OpenLANE-SKY130/blob/main/DAY4/cts2.jpg)
+
 
 ## ***DAY5- Final Steps for RTL2GDS using tritonRoute and open STA***
 
