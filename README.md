@@ -300,7 +300,7 @@ Define the ports
 
 To Extract the LEF file
 
-![enter image description here](%5Benter%20link%20description%20here%5D%28https://github.com/Krishnakumar-Pugazhenthi/Advanced-Physical-Design-using-OpenLANE-SKY130/blob/main/DAY4/lef_write.jpg%29)
+![enter image description here](https://github.com/Krishnakumar-Pugazhenthi/Advanced-Physical-Design-using-OpenLANE-SKY130/blob/main/DAY4/lef_write.jpg)
 
 Inside lef file
 
